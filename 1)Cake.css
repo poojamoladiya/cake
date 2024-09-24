@@ -1,0 +1,181 @@
+.navbar{
+    background-color: rgb(239, 144, 72);  
+    list-style: none;
+    
+
+}
+.P img{
+    position: absolute;
+    top: -20px;
+}
+
+.nav-item{
+	display: inline;
+}
+.nav-link{
+	 color: #fff;
+	 text-decoration: none;
+	 
+}
+.nav-link:hover{
+	color: #fff;
+    border-radius: 20px;
+    background-color: rgb(59, 29, 2);
+}
+.A img{
+    height: 85%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    cursor: pointer;
+}
+.A h2{
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    color: aliceblue;
+    top: 200px;
+    left: 40px;
+    font-size: 70px;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px black;
+    font-size: bold;
+    
+}
+.A h3{
+    position: absolute;
+    color: aliceblue;
+    top:280px;
+    font-family: 'Playfair Display', serif;
+    left:40px;
+    font-size: 40px;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px black;
+    font-size: bold;
+    
+}
+.A h4{
+    position: absolute;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+    top: 330px;
+    left:40px;
+    font-size: 40px;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px black;
+    font-size: bold;
+    
+}
+.A :hover{
+    color:rgb(239, 144, 72);
+}
+.H{
+    height: 205%;
+    width: 100%;
+    top: 596px;
+    position: absolute;
+    background-color: rgb(48, 27, 2);
+}
+
+#box{
+    margin-top: 50px;
+
+}
+#box .card{
+    margin-top: 8px;
+    cursor: pointer;
+}
+#box .card:hover{
+    transform: translateY(20px);
+}
+.banner{
+    margin-top: 200px;
+}
+
+.banner h3{
+    font-size: 80px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: darkorange;
+}
+.banner h2{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: darkorange;
+    font-family: 'Playfair Display', serif;
+}
+.banner img{
+    height: 640px;
+    margin-top: -160px;
+    width: 591px;
+    position:absolute;
+    transition: 5s;
+    right: -30px;  
+}
+
+.banner h3:hover{
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+
+.banner h2:hover{
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+.button {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: rgb(177, 99, 11);
+    border: 2px solid  rgb(177, 99, 11);
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    top: 50px;
+    left: 40px;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: rgb(193, 163, 98);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button:hover::before {
+    scale: 3;
+  }
+  
+  .button:hover {
+    color: #212121;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(161, 132, 69, 0.4);
+  }
+  
+  .button:active {
+    scale: 1;
+  }
+
+  
+  
+
+   
+
+
+
+
+
+
+

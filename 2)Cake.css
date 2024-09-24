@@ -1,0 +1,271 @@
+.navbar{
+     background-color:rgb(173, 144, 144); 
+    list-style: none;
+    padding: 12px;
+    
+
+}
+.P img{
+    position: absolute;
+    top: -20px;
+}
+
+.nav-item{
+	display: inline;
+}
+
+.nav-link:hover{
+	color: #fff;
+    border-radius: 20px;
+    background-color: rgb(59, 29, 2);
+}
+.A{
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    background-color:gainsboro;
+}
+.A img{
+    position: absolute;
+    top: 110px;
+}
+.A h2{
+    left: 460px;
+    top: 150px;
+    color: brown;
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;    
+}
+.A p{
+    left: 460px;
+    top: 240px;
+    color: brown;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;    
+}
+.button{
+    position: absolute;
+    cursor: pointer;
+    padding: 10px 24px;
+    font-size: 20px;
+    color: brown;
+    top: 380px;
+    left: 600px;
+    border: 2px solid brown;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+.button:hover{
+    background-color: black;
+}
+
+
+.A1{
+    position: absolute;
+    margin-top: 590px;
+    color: brown;
+    text-align: center;
+    left: 200px;
+    font-size: 30px;
+
+}
+
+#banner-cards .card{
+    background-color:gainsboro;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 580px;
+    margin-bottom: 50PX;
+    transition: 3s;
+}
+
+
+#banner-cards .card:hover{
+    transform: scale(0.5);
+}
+
+#banner-cards .card h3{
+    color: brown;
+    text-align: center;
+    font-family: 'Playfair Display', serif;  
+}
+#banner-cards1 .card{
+    background-color:gainsboro;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 580px;
+    margin-bottom: 50PX;
+    transition: 3s;
+}
+
+
+#banner-cards1 .card:hover{
+    transform: scale(0.5);
+}
+
+#banner-cards1 .card h3{
+    color: brown;
+    text-align: center;
+    font-family: 'Playfair Display', serif;  
+}
+
+
+
+ .A3 img{
+    position: absolute;
+    width: 1215px;
+    top: 1630px;
+    height: 600px;
+
+}
+
+.A3 h3{
+    font-size: 70px;
+    top: 1760px;
+    left: 650px;
+    position: absolute;
+    color:rgb(175, 80, 112);
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+
+} 
+.A3 h2{
+    font-size: 70px;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    left: 650px;
+    color:rgb(175, 80, 112);
+    top: 1830px;
+    font-family: 'Playfair Display', serif;
+}
+.A3 button{
+    position: absolute;
+    top: 1980px;
+    cursor: pointer;
+    left: 760px;
+    color: rgb(175, 80, 112);;
+    border: 2px solid rgb(175, 80, 112);
+    border-radius: 20px;   
+
+}
+
+.A3 button:hover{
+    background-color:gray;
+    cursor: pointer;                 
+
+
+} 
+.img2 img{
+    top: 1200px;
+    position: absolute;
+    width: 1210px;
+    
+}
+.img2 h3{
+    font-size: 50px;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    left: 650px;
+    color:brown;
+    top: 1310px;
+    left: 500px;
+    font-family: 'Playfair Display', serif;
+}
+ .img3 img{
+    position: absolute;
+    top: 2630px;
+    left: 30px;
+ }
+ .img3 p{
+    position: absolute;
+    top: 2750px;
+    left: 700px;
+    color: brown;
+ }
+ .img3 h3{
+    position: absolute;
+    top: 2640px;
+    left: 860px;
+    color: brown;
+ }
+ .img3 h2{
+    position: absolute;
+    top: 2690px;
+    left: 860px;
+    color: brown;
+ }
+
+.img4 img{
+   position: absolute;
+   top: 3280px;
+   height: 400px;
+   width: 500px;
+   left: 680px;
+}
+.img4 p{
+   position: absolute;
+   top: 3300px;
+   left: 60px;
+   color: brown;
+}
+
+
+.P3 h3{
+    position: absolute;
+    top: 3250px;
+    text-align: center;
+    cursor: pointer;
+    color: brown;
+    left: 400px;
+} 
+#product-cards .card{
+    background-color:gainsboro;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    top: 2200px;
+    cursor: pointer;
+    transition: 3s;
+
+}
+#product-cards .card:hover{
+    transform: scale(0.5);
+    
+}
+
+#product-cards h3{
+    color: brown;
+    text-shadow: 1px 1px 1px black;
+}
+#product-cards p{
+    color: brown;
+    
+}
+#product-cards h6{
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+}
+#product-cards h6 span button{
+    width: 100px;
+    height: 26px;
+    font-size: 15px;
+    float: right;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    color: brown;
+    border: 2px solid brown;
+    transition: 5s;
+
+}
+
+
+
+ 

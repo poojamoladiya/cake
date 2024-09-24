@@ -1,0 +1,546 @@
+.navbar{
+  background-color:rgb(173, 144, 144); 
+ list-style: none;
+ cursor: pointer;
+ 
+
+}
+.P img{
+ position: absolute;
+ top: -20px;
+}
+
+.nav-item{
+  color: black;
+ display: inline;
+ display: flex;
+ text-align: center;
+ 
+ text-decoration: none;
+
+ padding-bottom: 15px;
+
+}
+
+ .img2 h3{
+    font-size: 60px;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    left: 650px;
+    color:brown;
+    top: 100px;
+    left: 530px;
+    font-family: Freestyle Script ;
+}
+.img2 img{
+    top: -1px;
+    position: absolute;
+    width: 1215px;
+    
+}
+.P4 img{
+  position: absolute;
+  top:530px;
+  border-radius: 35px;
+  left: 40px;
+  transition: 3s;
+}
+
+.P5 h4{
+  position: absolute;
+  top: 460px;
+  border-radius: 35px;
+  font-family:Forte;
+  transition: 3s;
+  text-align: center;
+  font-size: 35px;
+  left: 490px;
+}
+.P5 h4{
+  transform: scale(1.1);
+  color: brown;
+}
+ .img3 img{
+  position: absolute;
+ 
+  top: 450px;
+  border-radius: 10px;
+  cursor: pointer;
+
+ }
+ .img3 h4{
+  position: absolute;
+  top: 700px;
+ left: 70px;
+ font-weight: bold;
+  text-align: center;
+  border-radius: 35px;
+
+ }
+
+.img3 h5{
+ position: absolute;
+ top: 740px;
+left: 90px;
+font-weight: bold;
+font-size: 23px;
+ text-align: center;
+ border-radius: 35px;
+
+}
+ button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  top: 765px;
+  font-size: 23px;
+  font-weight: bold;
+  left: 70px;
+  background: none;
+  cursor: pointer;
+}
+
+button {
+  --primary-color: #111;
+  --hovered-color: #c84747;
+  position: absolute;
+  display: flex;
+  font-weight: bold;
+  font-size: 60px;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+button p {
+  margin: 0;
+  position: relative;
+  font-size: 23px;
+
+}
+
+button::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+
+  bottom: -7px;
+  background: var(--hovered-color);
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+
+button p::before {
+  position: absolute;
+  /*   box-sizing: border-box; */
+  width: 0%;
+  inset: 0;
+  color: var(--hovered-color);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+button:hover::after {
+  width: 100%;
+}
+
+button:hover p::before {
+  width: 100%;
+}
+.img4 img{
+  position: absolute;
+ 
+  top: 900px;
+  border-radius: 10px;
+  cursor: pointer;
+
+ }
+ .img4 h4{
+  position: absolute;
+  top: 1150px;
+ left: 70px;
+ font-weight: bold;
+  text-align: center;
+  border-radius: 35px;
+
+ }
+
+.img4 h5{
+ position: absolute;
+ top:1190px;
+left: 90px;
+font-weight: bold;
+font-size: 23px;
+ text-align: center;
+ border-radius: 35px;
+
+}
+ .img4 button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  top: 1220px;
+  font-size: 23px;
+  font-weight: bold;
+  left: 70px;
+  background: none;
+  cursor: pointer;
+}
+
+button {
+  --primary-color: #111;
+  --hovered-color: #c84747;
+  position: absolute;
+  display: flex;
+  font-weight: bold;
+  font-size: 60px;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+button p {
+  margin: 0;
+  position: relative;
+  font-size: 23px;
+
+}
+
+button::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+
+  bottom: -7px;
+  background: var(--hovered-color);
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+
+button p::before {
+  position: absolute;
+  /*   box-sizing: border-box; */
+  width: 0%;
+  inset: 0;
+  color: var(--hovered-color);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+button:hover::after {
+  width: 100%;
+}
+
+button:hover p::before {
+  width: 100%;
+}
+.img5 img{
+  position: absolute;
+ 
+  top: 1360px;
+  border-radius: 10px;
+  cursor: pointer;
+
+ }
+ .img5 h4{
+  position: absolute;
+  top: 1600px;
+ left: 70px;
+ font-weight: bold;
+  text-align: center;
+  border-radius: 35px;
+
+ }
+
+.img5 h5{
+ position: absolute;
+ top:1640px;
+left: 90px;
+font-weight: bold;
+font-size: 23px;
+ text-align: center;
+ border-radius: 35px;
+
+}
+ .img5 button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  top: 1670px;
+  font-size: 23px;
+  font-weight: bold;
+  left: 70px;
+  background: none;
+  cursor: pointer;
+}
+
+button {
+  --primary-color: #111;
+  --hovered-color: #c84747;
+  position: absolute;
+  display: flex;
+  font-weight: bold;
+  font-size: 60px;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+button p {
+  margin: 0;
+  position: relative;
+  font-size: 23px;
+
+}
+
+button::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+
+  bottom: -7px;
+  background: var(--hovered-color);
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+
+button p::before {
+  position: absolute;
+  /*   box-sizing: border-box; */
+  width: 0%;
+  inset: 0;
+  color: var(--hovered-color);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+button:hover::after {
+  width: 100%;
+}
+
+button:hover p::before {
+  width: 100%;
+}
+
+
+
+.P10{
+  position: absolute;
+  top: 1900px;
+  height: 200px;
+  width: 100%;
+  background-color: gainsboro;
+ }
+ .P10 h3{
+  position: absolute;
+  top: 80px;
+  color: brown;
+  left: 180px;
+  font-size: 20px;
+ }
+.icon{
+  position: absolute;
+  top: 80px;
+  left: 100px;
+
+}
+.img7 h5{
+  position: absolute;
+  top: 10px;
+  width: 160px;
+  color: brown;
+  left: 70px;
+  font-size: 20px;
+ }
+ .img7{
+  position: absolute;
+  top: 80px;
+  left: 500px;
+ }
+ .P10 h4{
+  position: absolute;
+  top:3px;
+  color: brown;
+  width: 170px;
+  left: 850px;
+  font-size: 20px;
+ }
+ .img8{
+  position: absolute;
+  top: 5px;
+  left: 770px;
+ }
+
+ 
+ .puju{
+  position: absolute;
+  top: 2100px;
+   background-color:hwb(0 54% 19%);
+
+  height: 53%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.harmi1{
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  
+}
+
+ .harmi11{
+  color: #e8e8e8;
+  font-size: 15px;
+  font-family:'Palatino Linotype';
+  font-weight: bold;
+  top: 150px;
+  left: 500px;
+  position: absolute;
+ }
+
+ .fot1{
+  list-style: none;
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 100px;
+  left: -350px;
+  
+ }
+ .fot1 a{
+  text-decoration: none;
+  color: black;
+ }
+ .fot1 a:hover{
+  color: black;
+  text-decoration: none;
+ }
+ .fot1 h4{
+   list-style: none;
+   text-decoration: none;
+   color:black;
+   font-size: 25px;
+   font-weight: bold;
+   cursor: pointer;
+   position: absolute;
+   top: -35px;
+   left: 4px;
+
+  }
+  .fot{
+   list-style: none;
+   text-decoration: none;
+   color:black;
+   font-size: 20px;
+   cursor: pointer;
+   position: absolute;
+   top: 70px;
+   left: 620px;
+   
+  }
+  .fot h4{
+    list-style: none;
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: -35px;
+    left: 4px;
+
+   }
+   .fot2{
+       list-style: none; 
+       text-decoration: none;
+       color:black;
+       font-size: 20px;
+       cursor: pointer;
+       position: absolute;
+       top: 70px;
+       left: 870px;
+       
+      }
+      .fot2 h4{
+        list-style: none;
+        text-decoration: none;
+        color:black;
+        font-size: 25px;
+        width: 200px;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        top: -35px;
+        left: 1px;
+    
+       }
+       .fot2 h3{
+           list-style: none;
+           text-decoration: none;
+           color:brown;
+           font-size: 20px;
+           cursor: pointer;
+           position: absolute;
+           top: 30px;
+           left: 4px;
+       }
+       .fot2 h5{
+           list-style: none;
+           text-decoration: none;
+           color:brown;
+           font-size: 20px;
+           cursor: pointer;
+           position: absolute;
+           top: 90px;
+           width: 200px;
+           left: 4px;
+       }
+       
+
+ .insta{
+  color: #e8e8e8;
+  font-size: 15px;
+  font-family: 'palatino Linotype';
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  top: 200px;
+  left: -340px;
+  
+ }
+ .feb{
+  color: #e8e8e8;
+  font-size: 15px;
+  font-family: 'palatino Linotype';
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  top: 200px;
+  left: 165px;
+  
+ }
+ .call{
+   position: absolute;
+   left:430px;
+   top: 290px;
+ }
+ .email{
+   position: absolute;
+   left: 650px;
+   top: 290px;
+ }
+ .loc{
+   position: absolute;
+   left: 940px;
+   top: 290px;
+ } 
+
+
+
+
+
+

@@ -1,0 +1,361 @@
+.navbar{
+    background-color:rgb(173, 144, 144); 
+   list-style: none;
+   cursor: pointer;
+   
+  
+  }
+  .P img{
+   position: absolute;
+   top: -20px;
+  }
+  
+  .nav-item{
+    color: black;
+   display: inline;
+   display: flex;
+   text-align: center;  
+   text-decoration: none;
+   padding-bottom: 15px;
+  
+  } 
+
+
+
+ .A{
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    background-color:gainsboro;
+} 
+.A .img1 img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height:500px;
+    width: 500px;
+
+}
+.A h2{
+    left: 580px;
+    top: 150px;
+    color: brown;
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;    
+}
+.A p{
+    left: 580px;
+    top: 240px;
+    color: brown;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;    
+}
+.button {
+    padding: 15px 25px;
+    border: 2px solid brown;
+    color: brown;
+    z-index: 1;
+    border-radius: 20px;
+    top: 370px;
+    left: 700px;
+    position:absolute;
+    font-weight: 1000;
+    font-size: 17px;
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+    background-color: black;
+   }
+   
+ 
+   .A1{
+    top: 300px;
+    position: absolute;
+
+   }
+   .img2 img{
+    position: absolute;
+    top: 550px;
+   }
+   .img3 img{
+    position: absolute;
+    top: 540px;
+    left: 20px;
+
+   }
+   .img4 img{
+    position: absolute;
+    top: 550px;
+   }
+   .img5 img{
+    position: absolute;
+    top: 540px;
+    transition: 3s;
+   }
+
+   #product-cards .card{
+    background-color:gainsboro;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    top:850px;
+    cursor: pointer;
+    transition: 3s;
+
+}
+#product-cards .card:hover{
+    transform: scale(0.8);
+    
+}
+
+#product-cards h3{
+    color: brown;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+#product-cards p{
+    color: brown;
+    
+}
+#product-cards h6{
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+}
+#product-cards h6 span button{
+    width: 100px;
+    height: 26px;
+    font-size: 15px;
+    float: right;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    color: brown;
+    border: 2px solid brown;
+    transition: 3s;
+}
+.P10{
+    position: absolute;
+    top: 2500px;
+    height: 200px;
+    width: 100%;
+    background-color: gainsboro;
+   }
+   .P10 h3{
+    position: absolute;
+    top: 80px;
+    color: brown;
+    left: 180px;
+    font-size: 20px;
+   }
+.icon{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+
+}
+.img7 h5{
+    position: absolute;
+    top: 10px;
+    width: 160px;
+    color: brown;
+    left: 70px;
+    font-size: 20px;
+   }
+   .img7{
+    position: absolute;
+    top: 80px;
+    left: 500px;
+   }
+   .P10 h4{
+    position: absolute;
+    top:3px;
+    color: brown;
+    width: 170px;
+    left: 850px;
+    font-size: 20px;
+   }
+   .L{
+    position: absolute;
+    top: 5px;
+    left: 770px;
+   }
+
+
+   .puju{
+   position: absolute;
+   top: 2700px;
+    background-color:hwb(0 54% 19%);
+
+   height: 53%;
+   width: 100%;
+   cursor: pointer;
+ }
+ 
+ .harmi1{
+   position: absolute;
+   top: -20px;
+   left: -30px;
+   
+ }
+ 
+  .harmi11{
+   color: #e8e8e8;
+   font-size: 15px;
+   font-family:'Palatino Linotype';
+   font-weight: bold;
+   top: 150px;
+   left: 500px;
+   position: absolute;
+  }
+ 
+  .fot1{
+   list-style: none;
+   text-decoration: none;
+   color:black;
+   font-size: 20px;
+   cursor: pointer;
+   position: absolute;
+   top: 100px;
+   left: -350px;
+   
+  }
+  .fot1 h4{
+    list-style: none;
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: -35px;
+    left: 4px;
+
+   }
+   .fot{
+    list-style: none;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 70px;
+    left: 620px;
+    
+   }
+   .fot h4{
+     list-style: none;
+     text-decoration: none;
+     color:black;
+     font-size: 25px;
+     font-weight: bold;
+     cursor: pointer;
+     position: absolute;
+     top: -35px;
+     left: 4px;
+ 
+    }
+    .fot2{
+        list-style: none; 
+        text-decoration: none;
+        color:black;
+        font-size: 20px;
+        cursor: pointer;
+        position: absolute;
+        top: 70px;
+        left: 870px;
+        
+       }
+       .fot2 h4{
+         list-style: none;
+         text-decoration: none;
+         color:black;
+         font-size: 25px;
+         width: 200px;
+         font-weight: bold;
+         cursor: pointer;
+         position: absolute;
+         top: -35px;
+         left: 4px;
+     
+        }
+        .fot2 h3{
+            list-style: none;
+            text-decoration: none;
+            color:brown;
+            font-size: 20px;
+            cursor: pointer;
+            position: absolute;
+            top: 30px;
+            left: 4px;
+        }
+        .fot2 h5{
+            list-style: none;
+            text-decoration: none;
+            color:brown;
+            font-size: 20px;
+            cursor: pointer;
+            position: absolute;
+            top: 90px;
+            width: 200px;
+            left: 4px;
+        }
+        
+ 
+  .insta{
+   color: #e8e8e8;
+   font-size: 15px;
+   font-family: 'palatino Linotype';
+   cursor: pointer;
+   font-weight: bold;
+   position: absolute;
+   top: 200px;
+   left: -340px;
+   
+  }
+  .feb{
+   color: #e8e8e8;
+   font-size: 15px;
+   font-family: 'palatino Linotype';
+   cursor: pointer;
+   font-weight: bold;
+   position: absolute;
+   top: 200px;
+   left: 165px;
+   
+  }
+  .call{
+    position: absolute;
+    left:430px;
+    top: 290px;
+  }
+  .email{
+    position: absolute;
+    left: 650px;
+    top: 290px;
+  }
+  .loc{
+    position: absolute;
+    left: 940px;
+    top: 290px;
+  } 
+
